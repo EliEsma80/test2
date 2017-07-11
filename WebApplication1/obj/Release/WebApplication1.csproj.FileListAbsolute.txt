@@ -1,0 +1,14 @@
+S:\Ali\IISNet\WebApplication1\bin\WebApplication1.dll.config
+S:\Ali\IISNet\WebApplication1\bin\WebApplication1.dll
+S:\Ali\IISNet\WebApplication1\bin\WebApplication1.pdb
+S:\Ali\IISNet\WebApplication1\obj\Release\WebApplication1.dll
+S:\Ali\IISNet\WebApplication1\obj\Release\WebApplication1.pdb
+C:\IISNet\WebApplication1\bin\WebApplication1.dll.config
+C:\IISNet\WebApplication1\bin\WebApplication1.dll
+C:\IISNet\WebApplication1\bin\WebApplication1.pdb
+C:\IISNet\WebApplication1\obj\Release\WebApplication1.csprojResolveAssemblyReference.cache
+C:\IISNet\WebApplication1\obj\Release\WebApplication1.dll
+C:\IISNet\WebApplication1\obj\Release\WebApplication1.pdb
+C:\IISNet\WebApplication1\bin\BadgeNumber.dll
+C:\IISNet\WebApplication1\bin\BadgeNumber.pdb
+C:\IISNet\WebApplication1\bin\BadgeNumber.xml

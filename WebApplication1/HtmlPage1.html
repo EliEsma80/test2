@@ -1,0 +1,80 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+</head>
+<body>
+    
+    <div class="container">
+        <div style="margin-top:10%;text-align:right"> <a href="AppcoMAS.aspx"> Back to Main page </a>   </div>
+        <div style="height:10px">  </div>
+        <div class="well" >
+            Add the Marketing Company to the Campaign
+            <div class="row" style="margin-top:5%">
+
+                <div class="col-sm-4">
+                    Select the Marketing Company:
+                </div>
+                <div class="col-sm-4">
+                    Select the Campaign to Delete:
+                </div>
+                <div class="col-sm-4">
+
+                </div>
+            </div>
+            <div class="row">
+                
+                <div class="col-sm-4">
+                    <select ng-model="McID" ng-change="FindCamp()">
+                        <option ng-repeat="MC in MCs" value="{{MC.RecID}}">{{MC.MC1}}</option>
+                    </select>
+                                    
+                </div>
+                <div class="col-sm-4">
+                    <select ng-model="CampID1" size="5" style="width:300px">
+                        <option ng-repeat="SomeCamp in SomeCamps" value="{{SomeCamp.RecID}}">{{SomeCamp.CampaignName}}</option>
+                    </select>
+
+                </div>
+                <div class="col-sm-4"><input id="Button1" type="button" value="Remove the Campaign from MC" style="height:22px;font-size:small" ng-click="DeleteCamp()" /></div>
+            </div>
+            <div>
+                <br />
+                <br />
+            </div>
+
+
+            <div class="row" style="margin-top:5%">
+
+                <div class="col-sm-4">
+                    Select the Campaign to add to the MC:
+                </div>
+                <div class="col-sm-4">
+
+                </div>
+                <div class="col-sm-4">
+
+                </div>
+            </div>
+            <div class="row">
+
+                <div class="col-sm-4">
+                    <select ng-model="CampID">
+                        <option ng-repeat="Campaign in Campaigns" value="{{Campaign.RecID}}">{{Campaign.CampaignName}}</option>
+                    </select>
+                </div>
+                <div class="col-sm-4">
+
+                </div>
+                <div class="col-sm-4"><input id="Button2" type="button" value="Add Campaign to the Mc" style="height:22px;font-size:small" ng-click="InsertMcCamp()" /></div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
+
